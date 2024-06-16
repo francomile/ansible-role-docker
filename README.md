@@ -1,4 +1,4 @@
-# docker role
+# Ansible docker role
 
 [![Lint Ansible roles](https://github.com/francomile/ansible-role-docker/actions/workflows/ansible_lint.yml/badge.svg)](https://github.com/francomile/ansible-role-docker/actions/workflows/ansible_lint.yml)
 
