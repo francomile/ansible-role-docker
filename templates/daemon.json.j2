@@ -1,0 +1,12 @@
+{
+  "exec-opts": ["native.cgroupdriver=systemd"],
+  "live-restore": true,
+  "log-driver": "journald",
+  "log-level": "warn",
+  "log-opts": {
+    "tag": "{{ '{{.Name}}' }}",
+    "mode": "non-blocking",
+    "max-buffer-size": "10m",
+    "labels": "type,version"
+  }
+}
