@@ -14,7 +14,7 @@
 ```yaml
 roles:
   - {
-    role: docker,
+    role: francomile.docker,
     tags: ["docker"]
     }
 ```
